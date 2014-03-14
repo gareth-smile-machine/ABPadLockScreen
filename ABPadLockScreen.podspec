@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
 
-  s.source       = { :git => "https://github.com/gareth-smile-machine/ABPadLockScreen.git", :branch => "legacy_1.0_pod" }
+  s.source       = { :git => "https://github.com/gareth-smile-machine/ABPadLockScreen.git", :tag => "legacy_1.0_pod" }
   s.source_files  = 'ABPadLockScreen', 'ABLockScreen/**/*.{h,m}'
 
   s.requires_arc = true
