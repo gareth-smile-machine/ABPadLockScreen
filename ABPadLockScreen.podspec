@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
 
   s.source       = { :git => "https://github.com/gareth-smile-machine/ABPadLockScreen.git", :tag => "1.0" }
-  s.source_files  = 'ABPadLockScreen', 'ABPadLockScreen/**/*.{h,m}'
+  s.source_files  = 'ABPadLockScreen', 'ABLockScreen/**/*.{h,m}'
 
   s.requires_arc = true
 
