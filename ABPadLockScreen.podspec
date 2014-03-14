@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ABPadLockScreen"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A simple, stylish keypad lock screen for your iPhone or iPad App"
 
   s.description  = <<-DESC
