@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/gareth-smile-machine/ABPadLockScreen.git", :tag => "legacy_1.0_pod" }
   s.source_files  = 'ABPadLockScreen', 'ABLockScreen/**/*.{h,m}'
 
-  s.requires_arc = true
+  s.requires_arc = false
 
   end
